@@ -45,11 +45,15 @@ Page({
         })
         this.getLatestNews();
     },
+<<<<<<< HEAD
     clickNews(e) {
+=======
+    clickNormalNews(e) {
         console.log(e.currentTarget.dataset.id)
-        wx.navigateTo({
-            url: '/pages/detail/detail?newsID=' + e.currentTarget.dataset.id,
-        })
+    },
+    clickTopNews(e) {
+>>>>>>> parent of 9fb31ac... finish project
+        console.log(e.currentTarget.dataset.id)
     },
     getLatestNews(callback){
         wx.request({

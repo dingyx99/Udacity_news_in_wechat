@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "pages": [
         "pages/index/index",
         "pages/detail/detail"
@@ -9,3 +10,15 @@
         "navigationStyle": "custom"
     }
 }
+=======
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
+>>>>>>> parent of 9fb31ac... finish project
